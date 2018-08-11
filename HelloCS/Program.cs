@@ -60,6 +60,7 @@ namespace HelloCS
 
         public static string StringTest(string str)
         {
+            //reverse the string
             char[] chars = str.ToCharArray();
             Array.Reverse(chars);
             return new string(chars);
